@@ -4,86 +4,121 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <title>Bootstrap</title>
 </head>
 <body>
+   
+
+
 <header>
-  <h1>Passerelle Numérique</h1>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing 
-    elit. Esse, illo porro minima 
-  </p>
-  <hr>
-  <p>
-    <a href="#" role="button">Bouton</a>
-  </p>
-  <nav>
-    <ol>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Catégorie</a></li>
-      <li>Data</li>
-    </ol>
-  </nav>
+
+
+    <div class="jumbotron m-0">
+        <h1 class="display-3">Passerelle Numérique</h1>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing 
+            elit. Esse, illo porro minima </p>
+        <hr class="my-4">
+        
+          <a class="bbtn btn-warning btn-lg" href="#" role="button">Bouton</a>
+        </p>
+      </div>
+ 
+      <nav class="breadcrumb  navbar-inverse bg-inverse text-white">
+          <a class="breadcrumb-item text-white" href="#">Home</a>
+          <a class="breadcrumb-item text-white" href="#">Catégorie</a>
+          <a class="breadcrumb-item active text-success " href="#">Data</a>
+       </nav>
+       
+      
+    </nav>
+
 </header>
   <section>
-    <article>
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
-        rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
-        lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
-        orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
-      </p>
-      <button type="button">Button</button>
-    </article>
-    <article>
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
-      <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
-          rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
-          lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
-          orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-          Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
-      </p>
-      <button type="button">Button</button>
-    </article>
-    <article>
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
-      <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
-          rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
-          lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
-          orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-          Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
-      </p>
-      <button type="button">Button</button>
-    </article>
-  </section>
+      <article>
+          <div class="row">
+    <div class="col-lg-12">
+      </div>
+    
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+            rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+            lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+            orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+            Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+          </p>
+          <button class="btn btn-primary" type="button">Button</button>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+       
+        <img class=" rounded-circle img-fluid d-block mx-auto" src="http://fakeimg.pl/300/" alt="fakeimg">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+            rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+            lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+            orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+            Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+          </p>
+          <button class="btn btn-success" type="button">Button</button>
+        </div>
+      
+        
+    <div class="col-lg-4 col-sm-6 text-center mb-4">
+        <img src="http://fakeimg.pl/300/" alt="fakeimg">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+            rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+            lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+            orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+            Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+        </p>
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
+  </article>
+       </section>
   <section>
-    <h1>Lorem Ipsum</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-      rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-      lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-      orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-      Nam elit massa, finibus vitae gravida at, lobortis eget tellus
-    </p>
-    <button type="button">Validation</button>
-    <h1>Lorem Ipsum</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-      rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-      lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-      orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
-      Nam elit massa, finibus vitae gravida at, lobortis eget tellus
-    </p>
-    <button type="button">Validation</button>
+    
+      <div class="row justify-content-around">
+      <div class="card col-lg-5 col-sm-6 md-4 ">
+          
+          <div class="card-block">
+            <h1 class="card-title">Lorem Ipsum</h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
+                rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
+                lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
+                orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+                Nam elit massa, finibus vitae gravida at, lobortis eget tellus</p>
+                <button type="button" class="btn bg-inverse text-white btn-lg btn-block">Validation</button>
+          </div>
+        </div>
+        <div class="card col-lg-5 col-sm-6 md-4 ">
+          
+            <div class="card-block">
+              <h1 class="card-title">Lorem Ipsum</h1>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
+                  rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
+                  lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
+                  orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+                  Nam elit massa, finibus vitae gravida at, lobortis eget tellus</p>
+                  <button type="button" class="btn bg-inverse text-white btn-lg btn-block">Validation</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
   </section>
 </body>
 </html>
